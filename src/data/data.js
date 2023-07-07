@@ -11,7 +11,7 @@ const data = {
                         "label": "Deva Adi Deva"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/229",
+                "book": "navadvip_dham.pdf#page=229",
                 "label": "Sri Suryadas Sarakhela Residence",
                 "scenes": [
                     {
@@ -88,7 +88,7 @@ const data = {
                         "label": "Deva Adi Deva"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/228",
+                "book": "navadvip_dham.pdf#page=228",
                 "label": "Sri Gauridas Pandit Residence",
                 "scenes": [
                     {
@@ -154,7 +154,7 @@ const data = {
                         "label": "Deva Adi Deva"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/249",
+                "book": "navadvip_dham.pdf#page=249",
                 "label": "Sri Garbhavas",
                 "scenes": [
                     {
@@ -180,7 +180,7 @@ const data = {
                         "label": "Navadvipa Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/249",
+                "book": "navadvip_dham.pdf#page=249",
                 "label": "Sri Siddha Bakul",
                 "scenes": [
                     {
@@ -206,7 +206,7 @@ const data = {
                         "label": "Navadvipa Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/249",
+                "book": "navadvip_dham.pdf#page=249",
                 "label": "Sri Jana Kunda",
                 "scenes": [
                     {
@@ -242,7 +242,7 @@ const data = {
                         "label": "Sri Rupa Manjari Pada"
                     }
                 ],
-                "book": "vraj1/199",
+                "book": "vraj_mandal.pdf#page=199",
                 "label": "Sri Bhaktivinoda Thakura at Radha Kunda",
                 "scenes": [
                     {
@@ -306,7 +306,7 @@ const data = {
                         "label": "Sri Rupa Manjari Pada"
                     }
                 ],
-                "book": "vraj1/256",
+                "book": "vraj_mandal.pdf#page=256",
                 "label": "Sri Govinda Kunda",
                 "scenes": [
                     {
@@ -391,7 +391,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/266",
+                "book": "vraj_mandal.pdf#page=266",
                 "label": "Sri Uddhava Kunda",
                 "scenes": [
                     {
@@ -455,7 +455,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/220",
+                "book": "vraj_mandal.pdf#page=220",
                 "label": "Sri Kusum Sarovara",
                 "scenes": [
                     {
@@ -493,7 +493,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/229",
+                "book": "vraj_mandal.pdf#page=229",
                 "label": "Sri Kilola Kunda",
                 "scenes": [
                     {
@@ -570,7 +570,7 @@ const data = {
                         "label": "Damodara Astaka"
                     }
                 ],
-                "book": "vraj1/217",
+                "book": "vraj_mandal.pdf#page=217",
                 "label": "Sri Giridhari Gaudiya Matha",
                 "scenes": [
                     {
@@ -701,7 +701,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/233",
+                "book": "vraj_mandal.pdf#page=233",
                 "label": "Sri Haridev Mandir",
                 "scenes": [
                     {
@@ -790,7 +790,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/238",
+                "book": "vraj_mandal.pdf#page=238",
                 "label": "Sri Sanatan Goswami Bhajan Kutir",
                 "scenes": [
                     {
@@ -828,7 +828,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/240",
+                "book": "vraj_mandal.pdf#page=240",
                 "label": "Sri Mukharavinda Temple",
                 "scenes": [
                     {
@@ -947,7 +947,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/230",
+                "book": "vraj_mandal.pdf#page=230",
                 "label": "Sri Manasi Ganga",
                 "scenes": [
                     {
@@ -1015,7 +1015,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/217",
+                "book": "vraj_mandal.pdf#page=217",
                 "label": "Sri The Annakut Temple",
                 "scenes": [
                     {
@@ -1134,7 +1134,7 @@ const data = {
                         "label": "Radha Kunda Bhajan 1"
                     }
                 ],
-                "book": "vraj1/179",
+                "book": "vraj_mandal.pdf#page=179",
                 "label": "Sri Raghunatha das Goswami Samadhi",
                 "scenes": [
                     {
@@ -1172,7 +1172,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/160",
+                "book": "vraj_mandal.pdf#page=160",
                 "label": "Sri Shyama Kunda",
                 "scenes": [
                     {
@@ -1311,7 +1311,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj1/160",
+                "book": "vraj_mandal.pdf#page=160",
                 "label": "Sri Radha Kunda",
                 "scenes": [
                     {
@@ -1398,7 +1398,7 @@ const data = {
                         "label": "Yoga Pitha Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/263",
+                "book": "navadvip_dham.pdf#page=263",
                 "label": "Sri Madhai Samadhi",
                 "scenes": [
                     {
@@ -1475,7 +1475,7 @@ const data = {
                         "label": "Deva Adi Deva"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/263",
+                "book": "navadvip_dham.pdf#page=263",
                 "label": "Sri Mahaprabhu Hair",
                 "scenes": [
                     {
@@ -1515,7 +1515,7 @@ const data = {
                         "label": "Yoga Pitha Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/181",
+                "book": "navadvip_dham.pdf#page=181",
                 "label": "Sri Samudragarh",
                 "scenes": [
                     {
@@ -1575,7 +1575,7 @@ const data = {
                         "label": "Yoga Pitha Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/133",
+                "book": "navadvip_dham.pdf#page=133",
                 "label": "Sri Hari Hara Kshetra",
                 "scenes": [
                     {
@@ -1635,7 +1635,7 @@ const data = {
                         "label": "Yoga Pitha Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/190",
+                "book": "navadvip_dham.pdf#page=190",
                 "label": "Sri Vidyanagar",
                 "scenes": [
                     {
@@ -1695,7 +1695,7 @@ const data = {
                         "label": "Deva Adi Deva"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/59",
+                "book": "navadvip_dham.pdf#page=59",
                 "label": "Sri Srivasa-angan",
                 "scenes": [
                     {
@@ -1776,7 +1776,7 @@ const data = {
                         "label": "Yoga Pitha Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/126",
+                "book": "navadvip_dham.pdf#page=126",
                 "label": "Sri Svananda Sukhada Kunja",
                 "scenes": [
                     {
@@ -1964,7 +1964,7 @@ const data = {
                         "label": "Deva Adi Deva"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/62",
+                "book": "navadvip_dham.pdf#page=62",
                 "label": "Sri Advaita Bhavan and Gadadhar Angana",
                 "scenes": [
                     {
@@ -2041,7 +2041,7 @@ const data = {
                         "label": "Deva Adi Deva"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/180",
+                "book": "navadvip_dham.pdf#page=180",
                 "label": "Sri Puri Mandir",
                 "scenes": [
                     {
@@ -2105,7 +2105,7 @@ const data = {
                         "label": "Yoga Pitha Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/75",
+                "book": "navadvip_dham.pdf#page=75",
                 "label": "Sri Gaurakisor das Babaji Samadhi",
                 "scenes": [
                     {
@@ -2161,7 +2161,7 @@ const data = {
                         "label": "Gita Govinda"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/182",
+                "book": "navadvip_dham.pdf#page=182",
                 "label": "Sri Gour Gadadhar Mandir",
                 "scenes": [
                     {
@@ -2238,7 +2238,7 @@ const data = {
                         "label": "Deva Adi Deva"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/46",
+                "book": "navadvip_dham.pdf#page=46",
                 "label": "Sri Vishnupriya Devi Janma Sthali",
                 "scenes": [
                     {
@@ -2268,7 +2268,7 @@ const data = {
                         "label": "Deva Adi Deva"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/115",
+                "book": "navadvip_dham.pdf#page=115",
                 "label": "Sri Chand Kazi Samadhi",
                 "scenes": [
                     {
@@ -2324,7 +2324,7 @@ const data = {
                         "label": "Sri Rupa Manjari Pada"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/171",
+                "book": "navadvip_dham.pdf#page=171",
                 "label": "Sri Devananda Gaudiya Matha",
                 "scenes": [
                     {
@@ -2422,7 +2422,7 @@ const data = {
                         "label": "Navadvipa Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/136",
+                "book": "navadvip_dham.pdf#page=136",
                 "label": "Sri Nrsimha Pali (Devapali)",
                 "scenes": [
                     {
@@ -2508,7 +2508,7 @@ const data = {
                         "label": "Swami Maharaja Kirtan"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/91",
+                "book": "navadvip_dham.pdf#page=91",
                 "label": "Sri Mayapur Chandrodaya Mandir",
                 "scenes": [
                     {
@@ -2585,7 +2585,7 @@ const data = {
                         "label": "Navadvipa Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/123",
+                "book": "navadvip_dham.pdf#page=123",
                 "label": "Sri Surabhi Kunja",
                 "scenes": [
                     {
@@ -2683,7 +2683,7 @@ const data = {
                         "label": "Yoga Pitha Surround"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/48",
+                "book": "navadvip_dham.pdf#page=48",
                 "label": "Sri Yoga Pitha",
                 "scenes": [
                     {
@@ -2994,7 +2994,7 @@ const data = {
                         "label": "Guru Vandana"
                     }
                 ],
-                "book": "sri_navadvipa-dhama/72",
+                "book": "navadvip_dham.pdf#page=72",
                 "label": "Sri Bhaktisiddhanta Saraswati Samadhi",
                 "scenes": [
                     {
@@ -3090,7 +3090,7 @@ const data = {
                         "label": "Radhe Jaya Jaya"
                     }
                 ],
-                "book": "vraj2/259",
+                "book": "vraj_mandal.pdf#page=259",
                 "label": "Sri Vamshi Vat",
                 "scenes": [
                     {
@@ -3146,7 +3146,7 @@ const data = {
                         "label": "Radha Raman Bhajan"
                     }
                 ],
-                "book": "vraj2/290",
+                "book": "vraj_mandal.pdf#page=290",
                 "label": "Sri Radha Shyamasundar Mandir",
                 "scenes": [
                     {
@@ -3206,7 +3206,7 @@ const data = {
                         "label": "Radha Raman Bhajan"
                     }
                 ],
-                "book": "vraj2/288",
+                "book": "vraj_mandal.pdf#page=288",
                 "label": "Sri Radha Gokulananda Mandir",
                 "scenes": [
                     {
@@ -3278,7 +3278,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj2/230",
+                "book": "vraj_mandal.pdf#page=230",
                 "label": "Sri Seva Kunja",
                 "scenes": [
                     {
@@ -3371,7 +3371,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj2/274",
+                "book": "vraj_mandal.pdf#page=274",
                 "label": "Sri Madana Mohan Mandir",
                 "scenes": [
                     {
@@ -3452,7 +3452,7 @@ const data = {
                         "label": "Radha Raman Bhajan"
                     }
                 ],
-                "book": "vraj2/286",
+                "book": "vraj_mandal.pdf#page=286",
                 "label": "Sri Radha Raman Mandir",
                 "scenes": [
                     {
@@ -3545,7 +3545,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj2/256",
+                "book": "vraj_mandal.pdf#page=256",
                 "label": "Sri Dhir Samir",
                 "scenes": [
                     {
@@ -3617,7 +3617,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj2/228",
+                "book": "vraj_mandal.pdf#page=228",
                 "label": "Sri Advaita Vat",
                 "scenes": [
                     {
@@ -3689,7 +3689,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj2/222",
+                "book": "vraj_mandal.pdf#page=222",
                 "label": "Sri Kaliya Ghat",
                 "scenes": [
                     {
@@ -3791,7 +3791,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj2/248",
+                "book": "vraj_mandal.pdf#page=248",
                 "label": "Sri Keshi Ghat",
                 "scenes": [
                     {
@@ -3833,7 +3833,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj2/281",
+                "book": "vraj_mandal.pdf#page=281",
                 "label": "Sri Sanatan Goswami Samadhi",
                 "scenes": [
                     {
@@ -3910,7 +3910,7 @@ const data = {
                         "label": "Imli Tala Kirtan"
                     }
                 ],
-                "book": "vraj2/237",
+                "book": "vraj_mandal.pdf#page=237",
                 "label": "Sri Imli Tala Mandir",
                 "scenes": [
                     {
@@ -4021,7 +4021,7 @@ const data = {
                         "label": "Radha Damodar Kirtan 2"
                     }
                 ],
-                "book": "vraj2/284",
+                "book": "vraj_mandal.pdf#page=284",
                 "label": "Sri Radha Damodar Mandir",
                 "scenes": [
                     {
@@ -4165,7 +4165,7 @@ const data = {
                         "label": "Radha Damodar Kirtan 2"
                     }
                 ],
-                "book": "vraj2/268",
+                "book": "vraj_mandal.pdf#page=268",
                 "label": "Sri Govindaji Mandir (old)",
                 "scenes": [
                     {
@@ -4271,7 +4271,7 @@ const data = {
                         "label": "Radha Damodar Kirtan 2"
                     }
                 ],
-                "book": "vraj2/219",
+                "book": "vraj_mandal.pdf#page=219",
                 "label": "Sri 64 Samadhi",
                 "scenes": [
                     {
@@ -4373,7 +4373,7 @@ const data = {
                         "label": "Jaya Radha Madhava"
                     }
                 ],
-                "book": "vraj2/302",
+                "book": "vraj_mandal.pdf#page=302",
                 "label": "Sri Krishna Balaram Mandir",
                 "scenes": [
                     {
@@ -4505,7 +4505,7 @@ const data = {
                         "label": "Jaya Jaya Sundara"
                     }
                 ],
-                "book": "vraj2/251",
+                "book": "vraj_mandal.pdf#page=251",
                 "label": "Sri Nidhuvan",
                 "scenes": [
                     {

@@ -36,6 +36,9 @@
               </svg>
           </div>
       </li>
+      <li class="mr-1" :class="tab == 'all' ? '-mb-px' : ''">
+          <div class="tab" :class="tab == 'all' ? 'tab-active' : ''" @click="tab = 'all'">All in {{ place.dhama.label }}</div>
+      </li>
   </ul>
   <div class="tabs relative pt-5 w-full aspect-video" :class="tab == 'pano' ? '' : 'hidden'">
       <Pano :data="place" class="absolute h-full w-full object-cover" />
@@ -62,7 +65,7 @@
                 <svg class="inline-block w-6 h-6 fill-current text-green-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
                 </svg>
-                <div>Read about <a class="font-semibold text-indigo-700" :href="'http://issuu.com/360darshan.com/docs/' + place.book + '?mode=window&viewMode=singlePage'" title="read about Sri {{ place.label }}" target="_blank">Sri {{place.label }}</a></div>
+                <div>Read about <a class="font-semibold text-indigo-700" :href="'/books/' + place.book" title="read about {{ place.label }}" target="_blank">{{place.label }}</a></div>
             </div>
         </div>
     </div>
@@ -81,7 +84,10 @@
           </div>
         </template>
     </div>
-</div>
+  </div>
+  <div class="tabs flex flex-col px-8" :class="tab == 'all' ? '' : 'hidden'">
+      all places will be here
+  </div>
 </template>
 
 <style scoped>
