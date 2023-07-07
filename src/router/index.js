@@ -1,6 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DarshanView from '../views/DarshanView.vue'
+import DhamasView from '../views/DhamasView.vue'
+import DhamaView from '../views/DhamaView.vue'
+import VrView from '../views/VrView.vue'
+import AppView from '../views/AppView.vue'
+import HelpView from '../views/HelpView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,30 +16,35 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/dhamas',
+      name: 'dhamas',
+      component: DhamasView
+    },
+    {
+      path: '/vr',
+      name: 'vr',
+      component: VrView
+    },
+    {
+      path: '/vr/meta-quest-app',
+      name: 'meta quest app',
+      component: AppView
+    },
+    {
+      path: '/help',
+      name: 'help',
+      component: HelpView
+    },
+    {
       path: '/of/:slug',
       name: 'darshan',
       component: DarshanView
     },
     {
-      path: '/dhamas',
-      name: 'dhamas',
-      component: HomeView
+      path: '/:slug',
+      name: 'dhama',
+      component: DhamaView
     },
-    {
-      path: '/vr',
-      name: 'vr',
-      component: HomeView
-    },
-    {
-      path: '/vr/meta-quest-app',
-      name: 'meta quest app',
-      component: HomeView
-    },
-    {
-      path: '/help',
-      name: 'help',
-      component: HomeView
-    }
   ]
 })
 

@@ -9,9 +9,7 @@
 
 <script setup>
   defineProps({
-    data: { type: Object, required: true },
-    player: { type: Object, required: true },
-    playing: { type: String, required: true, default: 'paused' },
+    data: { type: Object, required: true }
   })
 
   function audioSelected() {

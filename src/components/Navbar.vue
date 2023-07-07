@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
-
 const open = ref(false)
 </script>
 
@@ -25,6 +24,10 @@ const open = ref(false)
                     <RouterLink to="/vr">VR</RouterLink>
                     <RouterLink to="/vr/meta-quest-app">Meta Quest App</RouterLink>
                     <RouterLink to="/help">Help</RouterLink>
+                  </div>
+                  <!-- tmp notice -->
+                  <div class="hidden sm:ml-10 sm:flex py-2 my-3 border border-red-300 bg-red-100 px-4 rounded-xl text-red-700">
+                    This is a test under-construction site. Actual website <a href="https://360darshan.com">is here</a>.
                   </div>
               </div>
 
