@@ -1,0 +1,17 @@
+/* @font-face {
+    font-family: 'Sacramento';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sacramento'), url('/fonts/Sacramento/Sacramento-Regular.ttf') format('truetype');
+} */
+
+@font-face {
+    font-family: 'BacasimeAntique';
+    font-style: normal;
+    font-weight: 400;
+    src: local('BacasimeAntique'), url('/fonts/Bacasime_Antique/BacasimeAntique-Regular.ttf') format('truetype');
+}
+
+.text-fancy {
+    font-family: 'BacasimeAntique';
+}

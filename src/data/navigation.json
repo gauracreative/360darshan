@@ -1,0 +1,16 @@
+{
+    "main": [
+        {
+            "label": "Home",
+            "slug": "/"
+        },
+        {
+            "label": "Dhamas",
+            "slug": "/dhamas"
+        },
+        {
+            "label": "VR",
+            "slug": "/vr"
+        }
+    ]
+}

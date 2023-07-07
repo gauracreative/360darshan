@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './founts.css';
+
+
+.hotSpot {
+    @apply block w-16 h-16 rounded-full animate-pulse;
+    background: url('/img/camera.gif') no-repeat center center;
+}
