@@ -24,8 +24,11 @@ const filtered = (key, value) => {
 }
 
 const dhamaBySlug = slug => {
-    const found = _.find(data, function(d) { return d.slug == slug; })
-    return found
+    return _.find(data, function(d) { return d.slug == slug; })
+}
+
+const dhamaByKey = key => {
+    return data[key]
 }
 
 const darshanBySlug = slug => {
@@ -48,15 +51,35 @@ const darshanBySlug = slug => {
     return result
 }
 
+const chunk = (items, cols) => {
+    const sorted = _.sortBy(items, i => { return i.label; })
+    return _.chunk(sorted, Math.ceil(items.length / cols))
+}
+
 const chunkedAudio = cols => {
-    return _.chunk(_.sortBy(audio, sound => { return sound.label; }), Math.ceil(audio.length / cols))
+    return chunk(audio, cols)
 }
 
 const dhamaBySlugChunked = (slug, cols) => {
     const dhama = dhamaBySlug(slug)
-    const chunkedPlaces = _.chunk(_.sortBy(dhama.places, d => { return d.label; }), Math.ceil(dhama.places.length / cols))
-    dhama.places = chunkedPlaces
+    dhama.places = chunk(dhama.places, cols)
     return dhama
 }
 
-export { data, audio, filtered, dhamaBySlug, darshanBySlug, chunkedAudio, dhamaBySlugChunked }
+const dhamaByKeyChunked = (key, cols) => {
+    const dhama = dhamaByKey(key)
+    dhama.places = chunk(dhama.places, cols)
+    return dhama
+}
+
+export {
+    data,
+    audio,
+    filtered,
+    dhamaBySlug,
+    dhamaByKey,
+    darshanBySlug,
+    chunkedAudio,
+    dhamaBySlugChunked,
+    dhamaByKeyChunked
+}

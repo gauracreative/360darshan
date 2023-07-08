@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DarshanView from '../views/DarshanView.vue'
+import DarshanVrView from '../views/DarshanVrView.vue'
 import DhamasView from '../views/DhamasView.vue'
 import DhamaView from '../views/DhamaView.vue'
 import VrView from '../views/VrView.vue'
@@ -39,6 +40,11 @@ const router = createRouter({
       path: '/of/:slug',
       name: 'darshan',
       component: DarshanView
+    },
+    {
+      path: '/vr/of/:slug',
+      name: 'darshan-vr',
+      component: DarshanVrView
     },
     {
       path: '/:slug',

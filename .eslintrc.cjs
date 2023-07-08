@@ -10,5 +10,6 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
-  }
+  },
+  "ignorePatterns": ["src/assets/js/pannellum.js", "**/vendor/*.js"]
 }

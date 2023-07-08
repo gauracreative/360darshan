@@ -13,6 +13,7 @@
     "size": "du -cha . -d 1 | grep -wE 'src|var|node_modules|git|total'"
   },
   "dependencies": {
+    "execa": "^7.1.1",
     "lodash": "^4.17.21",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2"
