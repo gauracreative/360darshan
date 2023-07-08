@@ -39,3 +39,10 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+## Cheat Sheet
+
+* defineProps()
+* defineEmits()
+* computed()
+* onMount()
+* ref()

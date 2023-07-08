@@ -1,70 +1,66 @@
-<template>
-  <div class="absolute h-full w-full object-cover"></div>
-</template>
-
-<script>
+<script setup>
+  import { inject, onMounted, ref } from 'vue'
   import '../assets/js/pannellum.js'
   import '../assets/css/pannellum.css'
 
-  export default {
-    props: {
-      data: { type: Object, required: true }
-    },
-    computed: {
-      // eslint-disable-next-line vue/return-in-computed-property
-      srcOption () {
-        const options = {}
-        options.default = {
-          firstScene: 's' + this.data.scenes[0].scene,
-          autoLoad: true,
-          // preview: '/img/sgurudeva.jpg',
-          sceneFadeDuration: 1000
-        }
-        const scenes = {}
-        this.data.scenes.forEach(scene => {
-          const sceneData = {
-            title: this.data.label + ' &bull; ' + scene.scene,
-            hfov: 110,
-            pitch: scene.pitch,
-            yaw: scene.yaw,
-            type: 'equirectangular',
-            panorama: '/img/pano/' + scene.file + '.jpg'
-          }
-          const hotSpots = []
-          scene.hotspots.forEach(hs => {
-            hotSpots.push({
-                pitch: hs.pitch,
-                yaw: hs.yaw,
-                targetPitch: hs.target_pitch,
-                targetYaw: hs.target_yaw,
-                type: 'scene',
-                text: 'Scene ' + hs.target,
-                sceneId: 's' + hs.target,
-                cssClass: 'hotSpot'
-            })
-          })
+  const root = ref(null)
 
-          sceneData.hotSpots = hotSpots
+  const data = inject('data')
 
-          scenes['s' + scene.scene] = sceneData
-        })
-        options.scenes = scenes
-        // console.log(options)
-          
-        return options
-      }
-    },
-    mounted () {
-      const viewer = window.pannellum.viewer(this.$el, this.srcOption)
-      viewer.on('load', () => {
-        console.log('pano loaded')
-      })
-      viewer.on('error', (err) => {
-        console.error(err)
-      })
+  const srcOptions = () => {
+    const options = {}
+    options.default = {
+      firstScene: 's' + data.value.scenes[0]['scene'],
+      autoLoad: true,
+      // preview: '/img/sgurudeva.jpg',
+      sceneFadeDuration: 1000
     }
+    const scenes = {}
+    data.value.scenes.forEach(scene => {
+      const sceneData = {
+        title: data.value.label + ' &bull; ' + scene.scene,
+        hfov: scene.hfov,
+        pitch: scene.pitch,
+        yaw: scene.yaw,
+        type: 'equirectangular',
+        panorama: '/img/pano/' + scene.file + '.jpg'
+      }
+      const hotSpots = []
+      scene.hotspots.forEach(hs => {
+        hotSpots.push({
+            pitch: hs.pitch,
+            yaw: hs.yaw,
+            targetPitch: hs.target_pitch,
+            targetYaw: hs.target_yaw,
+            type: 'scene',
+            text: 'Scene ' + hs.target,
+            sceneId: 's' + hs.target,
+            cssClass: 'hotSpot'
+        })
+      })
+
+      sceneData.hotSpots = hotSpots
+
+      scenes['s' + scene.scene] = sceneData
+    })
+    options.scenes = scenes
+    return options
   }
+
+  onMounted(() => {
+    const viewer = window.pannellum.viewer(root.value, srcOptions())
+    viewer.on('load', () => {
+      console.log('pano loaded')
+    })
+    viewer.on('error', (err) => {
+      console.error(err)
+    })
+  })
 </script>
+
+<template>
+  <div ref="root" class="absolute h-full w-full object-cover"></div>
+</template>
 
 <style scoped>
 </style>

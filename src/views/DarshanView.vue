@@ -3,10 +3,11 @@
   import DetailsTab from '../components/DetailsTab.vue'
   import {useRoute} from 'vue-router'
   import {darshanBySlug} from '../data/data.js'
-  import { ref } from 'vue'
+  import { ref, provide } from 'vue'
   const route = useRoute()
   const slug = route.params.slug
   const place = ref(darshanBySlug(slug))
+  provide('data', place)
   const tab = ref('pano')
 </script>
 <template>
@@ -41,10 +42,10 @@
           </li>
         </ul>
         <div class="tabs relative pt-5 w-full aspect-video" :class="tab == 'pano' ? '' : 'hidden'">
-            <Pano :data="place" class="absolute h-full w-full object-cover" />
+            <Pano />
         </div>
         <div class="tabs flex flex-col px-8" :class="tab == 'details' ? '' : 'hidden'">
-          <DetailsTab :data="place" />
+          <DetailsTab />
         </div>
         <div class="tabs flex flex-col px-8" :class="tab == 'all' ? '' : 'hidden'">
             all places will be here
