@@ -48,8 +48,15 @@ const darshanBySlug = slug => {
     return result
 }
 
-const chunkedAudio = () => {
-    return _.chunk(_.sortBy(audio, sound => { return sound.label; }), 6)
+const chunkedAudio = cols => {
+    return _.chunk(_.sortBy(audio, sound => { return sound.label; }), Math.ceil(audio.length / cols))
 }
 
-export { data, audio, filtered, dhamaBySlug, darshanBySlug, chunkedAudio }
+const dhamaBySlugChunked = (slug, cols) => {
+    const dhama = dhamaBySlug(slug)
+    const chunkedPlaces = _.chunk(_.sortBy(dhama.places, d => { return d.label; }), Math.ceil(dhama.places.length / cols))
+    dhama.places = chunkedPlaces
+    return dhama
+}
+
+export { data, audio, filtered, dhamaBySlug, darshanBySlug, chunkedAudio, dhamaBySlugChunked }

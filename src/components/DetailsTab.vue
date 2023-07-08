@@ -25,7 +25,7 @@
 <template>
   <DetailsCard />
   <div v-if="data.audio" class="flex flex-col sm:flex-row space-x-2">
-      <template v-for="col in chunkedAudio()">
+      <template v-for="col in chunkedAudio(3)">
         <div class="w-full sm:w-1/3">
           <ul class="flex flex-col space-y-2 my-4 text-blue-700">
             <AudioItem @audioSelected="audioSelected" v-for="audio in col" :key="audio.file" :data="audio" />

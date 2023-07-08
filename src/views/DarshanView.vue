@@ -1,6 +1,7 @@
 <script setup>
   import Pano from '../components/Pano.vue'
   import DetailsTab from '../components/DetailsTab.vue'
+  import AllTab from '../components/AllTab.vue'
   import {useRoute} from 'vue-router'
   import {darshanBySlug} from '../data/data.js'
   import { ref, provide } from 'vue'
@@ -48,7 +49,7 @@
           <DetailsTab />
         </div>
         <div class="tabs flex flex-col px-8" :class="tab == 'all' ? '' : 'hidden'">
-            all places will be here
+            <AllTab />
         </div>
       </div>
     </div>
