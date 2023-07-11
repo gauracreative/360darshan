@@ -4,7 +4,7 @@
     "src": "resources/fonts/Bacasime_Antique/BacasimeAntique-Regular.ttf"
   },
   "resources/js/app.css": {
-    "file": "assets/app-75a368a3.css",
+    "file": "assets/app-b9a07972.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
@@ -12,9 +12,9 @@
       "assets/BacasimeAntique-Regular-8e902066.ttf"
     ],
     "css": [
-      "assets/app-75a368a3.css"
+      "assets/app-b9a07972.css"
     ],
-    "file": "assets/app-39100589.js",
+    "file": "assets/app-42b88ad5.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
