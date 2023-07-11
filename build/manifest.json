@@ -1,7 +1,4 @@
 {
-  "_module.esm-a89a43e5.js": {
-    "file": "assets/module.esm-a89a43e5.js"
-  },
   "resources/fonts/Bacasime_Antique/BacasimeAntique-Regular.ttf": {
     "file": "assets/BacasimeAntique-Regular-8e902066.ttf",
     "src": "resources/fonts/Bacasime_Antique/BacasimeAntique-Regular.ttf"
@@ -17,26 +14,8 @@
     "css": [
       "assets/app-75a368a3.css"
     ],
-    "file": "assets/app-6e80a33a.js",
-    "imports": [
-      "_module.esm-a89a43e5.js"
-    ],
+    "file": "assets/app-39100589.js",
     "isEntry": true,
     "src": "resources/js/app.js"
-  },
-  "resources/js/vr.css": {
-    "file": "assets/vr-c22a59a1.css",
-    "src": "resources/js/vr.css"
-  },
-  "resources/js/vr.js": {
-    "css": [
-      "assets/vr-c22a59a1.css"
-    ],
-    "file": "assets/vr-9fb15cdd.js",
-    "imports": [
-      "_module.esm-a89a43e5.js"
-    ],
-    "isEntry": true,
-    "src": "resources/js/vr.js"
   }
 }
